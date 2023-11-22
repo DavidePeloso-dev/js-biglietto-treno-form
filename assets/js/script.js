@@ -50,7 +50,7 @@ generate_tiket.addEventListener('click', function() {
 
     document.querySelector('.wagon').innerHTML = Math.floor(Math.random() * 10 + 1);
 
-    document.querySelector('.tiket_price').innerHTML = total_price;
+    document.querySelector('.tiket_price').innerHTML = total_price + ' \u20AC';
 
     document.querySelector('.cp_code').innerHTML = Math.floor(Math.random() * (100000 -10000) + 1) + 10000;
 
