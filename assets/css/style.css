@@ -1,7 +1,6 @@
 .tiket .card{
     height: 200px;
     min-width: 300px;
-    margin-left: 0.75rem;
 }
 
 .tiket{
@@ -38,4 +37,25 @@
 
 .bg-modal .card{
     z-index: 1000;
+}
+
+@media screen and (max-width: 992px) {
+    .tiket .card, .tiket .col{
+        min-width: 90%;
+        height: 100px;
+        padding: 1rem 0;
+    }
+
+    .tiket{
+
+        & h3{
+            text-align: center;
+        }
+
+        & h4{
+            margin-bottom: 1rem;
+        }
+    }
+
+    
 }
