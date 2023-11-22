@@ -1,0 +1,41 @@
+.tiket .card{
+    height: 200px;
+    min-width: 300px;
+    margin-left: 0.75rem;
+}
+
+.tiket{
+    font-weight: bold;
+}
+.tiket h4{
+    margin-bottom: 3rem;
+    font-weight: bold;
+
+}
+
+.tiket .col{
+    max-width: calc((100% - 300px - 2rem) / 4 );
+    height: 200px;
+    padding: 3rem 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+
+}
+
+.bg_modal{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.384);
+
+    & .container{
+        height: inherit;
+    }
+}
+
+.bg-modal .card{
+    z-index: 1000;
+}
