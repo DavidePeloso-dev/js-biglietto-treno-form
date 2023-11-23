@@ -17,6 +17,7 @@ const modal = document.querySelector('.bg_modal').classList;
 generate_tiket.addEventListener('click', function() {
 
     if(kilometers.value == "" || age.value == "" || full_name.value == "") {
+        tiket_wrapper.add('invisible');
         modal.remove('invisible');
         const close = document.querySelector('.close');
         close.addEventListener('click', function(){
